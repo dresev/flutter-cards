@@ -126,6 +126,31 @@ class HomeScreen extends StatelessWidget {
               ],
             ),
           ),
+          Container(
+            margin: const EdgeInsets.symmetric(horizontal: 20),
+            padding: const EdgeInsets.all(20),
+            decoration: const BoxDecoration(
+              color: Color(0xFFF7F8FE),
+              borderRadius: BorderRadius.all(Radius.circular(20)),
+            ),
+            height: 17.h,
+            width: 100.w,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Container(
+                  height: 35,
+                  width: 35,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    color: const Color(0xFF2bd98e),
+                  ),
+                ),
+                Text('Sedentario', style: Theme.of(context).textTheme.titleLarge),
+                Text('Sin ejercicio', style: Theme.of(context).textTheme.labelSmall),
+              ],
+            ),
+          ),
           const Spacer(),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,

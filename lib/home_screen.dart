@@ -126,6 +126,56 @@ class HomeScreen extends StatelessWidget {
               ],
             ),
           ),
+          const Spacer(),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Container(
+                decoration: const BoxDecoration(
+                  color: Color(0xFFF7F8FE),
+                  borderRadius: BorderRadius.only(
+                    topLeft: Radius.circular(20),
+                    bottomLeft: Radius.circular(20),
+                  ),
+                ),
+                child: IconButton(
+                  onPressed: () {},
+                  icon: const Icon(
+                    Icons.favorite_border_rounded,
+                    color: Color(0xFFDBE0FA),
+                  ),
+                ),
+              ),
+              Container(
+                decoration: const BoxDecoration(color: Color(0xFFF7F8FE)),
+                child: IconButton(
+                  onPressed: () {},
+                  icon: const Icon(
+                    Icons.bookmark_border_rounded,
+                    color: Color(0xFFDBE0FA),
+                  ),
+                ),
+              ),
+              Container(
+                decoration: const BoxDecoration(
+                  color: Color(0xFFF7F8FE),
+                  borderRadius: BorderRadius.only(
+                    topRight: Radius.circular(20),
+                    bottomRight: Radius.circular(20),
+                  ),
+                ),
+                child: IconButton(
+                  onPressed: () {},
+                  icon: const Icon(
+                    Icons.addchart_rounded,
+                    color: Color(0xFFDBE0FA),
+                  ),
+                ),
+              ),
+            ],
+          ),
+          SizedBox(height: 4.5.w),
         ],
       ),
     );

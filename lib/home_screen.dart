@@ -133,7 +133,7 @@ class HomeScreen extends StatelessWidget {
             children: [
               Container(
                 decoration: const BoxDecoration(
-                  color: Color(0xFFF7F8FE),
+                  color: Color(0xFF1F2A36),
                   borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(20),
                     bottomLeft: Radius.circular(20),
@@ -143,23 +143,23 @@ class HomeScreen extends StatelessWidget {
                   onPressed: () {},
                   icon: const Icon(
                     Icons.favorite_border_rounded,
-                    color: Color(0xFFDBE0FA),
+                    color: Color(0xFF37495C),
                   ),
                 ),
               ),
               Container(
-                decoration: const BoxDecoration(color: Color(0xFFF7F8FE)),
+                decoration: const BoxDecoration(color: Color(0xFF1F2A36)),
                 child: IconButton(
                   onPressed: () {},
                   icon: const Icon(
                     Icons.bookmark_border_rounded,
-                    color: Color(0xFFDBE0FA),
+                    color: Color(0xFF37495C),
                   ),
                 ),
               ),
               Container(
                 decoration: const BoxDecoration(
-                  color: Color(0xFFF7F8FE),
+                  color: Color(0xFF1F2A36),
                   borderRadius: BorderRadius.only(
                     topRight: Radius.circular(20),
                     bottomRight: Radius.circular(20),
@@ -169,7 +169,7 @@ class HomeScreen extends StatelessWidget {
                   onPressed: () {},
                   icon: const Icon(
                     Icons.addchart_rounded,
-                    color: Color(0xFFDBE0FA),
+                    color: Color(0xFF37495C),
                   ),
                 ),
               ),

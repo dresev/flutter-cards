@@ -40,7 +40,17 @@ class MyApp extends StatelessWidget {
             titleLarge: TextStyle(
               fontSize: 17.sp,
               color: const Color(0xFF304154),
-              fontWeight: FontWeight.bold
+              fontWeight: FontWeight.bold,
+            ),
+            headlineMedium: TextStyle(
+              fontSize: 14.sp,
+              color: const Color(0xFF2bd98e),
+              fontWeight: FontWeight.bold,
+            ),
+            headlineSmall: TextStyle(
+              fontSize: 11.sp,
+              color: const Color(0xFF2bd98e),
+              fontWeight: FontWeight.bold,
             ),
             titleMedium: TextStyle(
               fontSize: 14.sp,

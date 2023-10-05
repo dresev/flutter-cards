@@ -48,7 +48,7 @@ class HomeScreen extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.end,
                       children: [
                         Text('diet',
-                            style: Theme.of(context).textTheme.bodyMedium),
+                            style: Theme.of(context).textTheme.headlineMedium),
                         Text('/ 1750 kcals',
                             style: Theme.of(context).textTheme.labelSmall),
                       ],
@@ -69,40 +69,55 @@ class HomeScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Row(
-                      crossAxisAlignment: CrossAxisAlignment.baseline,
-                      textBaseline: TextBaseline.ideographic,
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('25',
-                            style: Theme.of(context).textTheme.titleSmall),
-                        Text('%',
-                            style: Theme.of(context).textTheme.labelSmall),
-                        Text(' Proteinas',
+                        Text('Proteinas',
                             style: Theme.of(context).textTheme.bodySmall),
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.baseline,
+                          textBaseline: TextBaseline.ideographic,
+                          children: [
+                            Text('25',
+                                style: Theme.of(context).textTheme.titleSmall),
+                            Text('%',
+                                style: Theme.of(context).textTheme.labelSmall),
+                          ],
+                        ),
                       ],
                     ),
-                    Row(
-                      crossAxisAlignment: CrossAxisAlignment.baseline,
-                      textBaseline: TextBaseline.ideographic,
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('25',
-                            style: Theme.of(context).textTheme.titleSmall),
-                        Text('%',
-                            style: Theme.of(context).textTheme.labelSmall),
-                        Text(' Carbs',
+                        Text('Carbs',
                             style: Theme.of(context).textTheme.bodySmall),
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.baseline,
+                          textBaseline: TextBaseline.ideographic,
+                          children: [
+                            Text('25',
+                                style: Theme.of(context).textTheme.titleSmall),
+                            Text('%',
+                                style: Theme.of(context).textTheme.labelSmall),
+                          ],
+                        ),
                       ],
                     ),
-                    Row(
-                      crossAxisAlignment: CrossAxisAlignment.baseline,
-                      textBaseline: TextBaseline.ideographic,
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('25',
-                            style: Theme.of(context).textTheme.titleSmall),
-                        Text('%',
-                            style: Theme.of(context).textTheme.labelSmall),
-                        Text(' Grasas',
+                        Text('Grasas',
                             style: Theme.of(context).textTheme.bodySmall),
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.baseline,
+                          textBaseline: TextBaseline.ideographic,
+                          children: [
+                            Text('25',
+                                style: Theme.of(context).textTheme.titleSmall),
+                            Text('%',
+                                style: Theme.of(context).textTheme.labelSmall),
+                          ],
+                        ),
                       ],
                     ),
                   ],

@@ -146,8 +146,21 @@ class HomeScreen extends StatelessWidget {
                     color: const Color(0xFF2bd98e),
                   ),
                 ),
-                Text('Sedentario', style: Theme.of(context).textTheme.titleLarge),
-                Text('Sin ejercicio', style: Theme.of(context).textTheme.labelSmall),
+                Text('Sedentario',
+                    style: Theme.of(context).textTheme.titleLarge),
+                Text('Sin ejercicio',
+                    style: Theme.of(context).textTheme.labelSmall),
+              ],
+            ),
+          ),
+          Container(
+            margin: const EdgeInsets.all(20),
+            child: Row(
+              children: [
+                const Spacer(),
+                Text('00:00', style: Theme.of(context).textTheme.titleMedium),
+                const SizedBox(width: 10),
+                Switch(value: true, onChanged: (value){}),
               ],
             ),
           ),

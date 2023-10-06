@@ -38,6 +38,7 @@ dependencies:
   sizer: ^2.0.15
   syncfusion_flutter_sliders: ^22.2.12
   syncfusion_flutter_core: ^22.2.12
+  board_datetime_picker: ^1.1.0
 
 dev_dependencies:
   flutter_test:
